@@ -1,6 +1,6 @@
 # [WIP] lv2host-circle
 
-A first test of bare-metal LV2 plugin host for the Raspberry Pi, ported to [Circle](https://github.com/rsta2/circle) bare-metal environment and [circle-stdlib](https://github.com/smuehlst/circle-stdlib). 
+A first test of LV2 plugin host for the Raspberry Pi, ported to [Circle](https://github.com/rsta2/circle) bare-metal environment and [circle-stdlib](https://github.com/smuehlst/circle-stdlib). 
 
 This project is directly derived from and inspired by the original Raspberry Pi bare-metal LV2 host developed by **Joe Button (Joeboy)** in 2013 ([pixperiments/pitracker](https://github.com/Joeboy/pixperiments/tree/master/pitracker)).
 
