@@ -15,8 +15,7 @@
  *  - Audio Engine Subsystem:
  *      * Interfaces with Pi hardware audio drivers (I2S) via Circle Sound lib.
  *  - Plugin Core:
- *      * Standard LV2 C ABI (`lv2.h`) handling URID mapping, port connections,
- *      * and voice-allocating polyphonic synthesis (up to 6 active voices).
+ *      * Standard LV2 C ABI (`lv2.h`) handling URID mapping, port connections.
  *
  * ACKNOWLEDGEMENTS & CREDITS:
  *  - Original LV2 plugin host architecture by Joe Button (Joeboy):
