@@ -36,7 +36,7 @@ make clean
 make
 ```
 
-After that copy compiled kernel8-32.img to the SD card together with other nesesary files (config.txt, bootcode.bin, start.elf, fixup.dat, bcm2710-rpi-zero-2-w.dtb) 
+After that copy compiled kernel8-32.img to the SD card together with other nesesary files (config.txt, bootcode.bin, start.elf, fixup.dat, bcm2710-rpi-zero-2-w.dtb). 
 
 
 ## I2S Audio
