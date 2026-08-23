@@ -53,9 +53,9 @@ Use standart i2s [PCM5102](https://user-images.githubusercontent.com/2480569/166
 
 ## What is not implemented
 
-* ttl file parsing and presets
 * dynamic plugin loading
 * effects plugins
+* presets
 
 
 ## AI disclosure
