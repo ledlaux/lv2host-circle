@@ -6,7 +6,7 @@ This project is directly derived from and inspired by the original Raspberry Pi 
 
 All hardware specific code was removed from the original library and only lv2 loading engine code is used.
 
-No full project description is available yet. Tested with included lv2 plugins from the Joeboy repo which where adjusted to compile on Raspberry Pi Zero 2w with Circle 32bit config. 
+More detailed project description is available [here](https://github.com/ledlaux/lv2host-circle/blob/main/doc/architecture.md). Tested with included lv2 plugins from the Joeboy repo which where adjusted to compile on Raspberry Pi Zero 2w with Circle 32bit config. 
 
 
 ## Directory Layout:
