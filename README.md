@@ -26,6 +26,30 @@ circle-stdlib/
             └── wavplayer.lv2/
 ```
 
+## Engine layout
+
+
+```text
+lv2host-circle/
+│
+├── Kernel.cpp
+│   ├── Real-time audio callback
+│   ├── MIDI processing
+│   ├── plugin selection
+│   ├── I2S output
+│   └── hardware control
+│
+├── lv2.c
+│   ├── Embedded LV2 host support
+│   ├── URID mapping
+│   ├── Atom Forge setup
+│   ├── feature handling
+│   └── LV2 port management
+│
+└── LV2 plugin
+    └── Statically linked plugin implementation
+```
+
 ## Compilation 
 
 Build commands are executed directly inside each plugin's subfolder (e.g., `plugins/organ.lv2`).
@@ -50,13 +74,27 @@ enable\_uart=1
 
 Use standart i2s [PCM5102](https://user-images.githubusercontent.com/2480569/166105580-da11481c-8fc7-4375-8ab1-3031ab5c6ad0.png) dac pins for RPi zero 2w. 
 
+## Engine
+
+The engine is responsible for:
+
+* Initializing the LV2 environment.
+* Mapping LV2 URIs to numeric URIDs.
+* Providing host features to the plugin.
+* Instantiating statically linked LV2 plugins.
+* Creating and connecting plugin ports.
+* Receiving MIDI from UART and USB.
+* Converting MIDI messages into LV2 Atom events.
+* Executing the plugin's run() function.
+* Converting plugin floating-point output to 24-bit audio.
+* Sending the resulting audio to I2S through Circle's DMA audio interface.
+
 
 ## What is not implemented
 
 * dynamic plugin loading
+* presets and ttl parsing
 * effects plugins
-* presets
-
 
 ## AI disclosure
 
