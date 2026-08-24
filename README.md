@@ -26,7 +26,7 @@ circle-stdlib/
             └── wavplayer.lv2/
 ```
 
-## Engine layout
+## Engine Layout:
 
 
 ```text
