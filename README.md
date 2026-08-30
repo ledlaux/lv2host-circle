@@ -93,7 +93,7 @@ The engine is responsible for:
 ## What is not implemented
 
 * dynamic plugin loading
-* presets and ttl parsing
+* preset and ttl parsing
 * effects plugins
 
 ## AI disclosure
