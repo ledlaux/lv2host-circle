@@ -4,7 +4,7 @@ A first test of LV2 plugin host for the Raspberry Pi, ported to [Circle](https:/
 
 This project is directly derived from and inspired by the original Raspberry Pi bare-metal LV2 host developed by **Joe Button (Joeboy)** in 2013 ([pixperiments/pitracker](https://github.com/Joeboy/pixperiments/tree/master/pitracker)).
 
-All hardware specific code was removed from the original library and only lv2 loading engine code is used.
+All hardware specific code from the original library was not used, only lv2 loading engine.
 
 More detailed project description is available [here](https://github.com/ledlaux/lv2host-circle/blob/main/doc/architecture.md). Tested with included lv2 plugins from the Joeboy repo which where adjusted to compile on Raspberry Pi Zero 2w with Circle 32bit config. 
 
