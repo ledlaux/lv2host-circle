@@ -21,9 +21,9 @@
  *  - Original LV2 plugin host architecture by Joe Button (Joeboy):
  *    https://github.com/Joeboy/pixperiments/tree/master/pitracker
  *  - Circle bare-metal framework for Raspberry Pi by Rene Stange.
-      https://github.com/rsta2/circle
-    - C and C++ standard library support for Circle
-      https://github.com/smuehlst/circle-stdlib
+ *    https://github.com/rsta2/circle
+ *  - C and C++ standard library support for Circle
+ *    https://github.com/smuehlst/circle-stdlib
  * ============================================================================
 */
 
