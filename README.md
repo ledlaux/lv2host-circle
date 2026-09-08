@@ -67,12 +67,10 @@ After that copy compiled kernel8-32.img to the SD card together with other neses
 
 **config.txt**
 
-arm\_64bit=0 \
-kernel=kernel8-32.img \
-dtparam=i2s=on \
-enable\_uart=1
+dtparam=i2s=on 
 
 Use standart i2s [PCM5102](https://user-images.githubusercontent.com/2480569/166105580-da11481c-8fc7-4375-8ab1-3031ab5c6ad0.png) dac pins for RPi zero 2w. 
+
 
 ## Engine
 
