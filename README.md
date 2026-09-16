@@ -1,4 +1,4 @@
-# circle-lv2host
+# lv2host-circle
 
 A first test of LV2 plugin host for the Raspberry Pi, ported to [Circle](https://github.com/rsta2/circle) bare-metal environment and [circle-stdlib](https://github.com/smuehlst/circle-stdlib). 
 
